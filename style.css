@@ -1,3 +1,20 @@
 body {
   background-color: purple;
 }
+#myForm {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  font-size: 18px;
+}
+#myForm label {
+  margin-top: 10px;
+}
+#myForm label input {
+  width: 100%;
+  margin-top: 10px;
+}
+#myForm button {
+  margin-top: 20px;
+  width: 80px;
+}
